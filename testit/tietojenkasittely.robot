@@ -14,6 +14,7 @@ Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
     Avaa selain XAMKin etusivulle
     Tarkista että etusivu on auki
     Siirry koulutus välilehdelle
+    Sulje sharepalkki
     Siirry AMK-tutkinnot välilehdelle
     Hae tietojenkäsittelyn koulutusta
     Tarkista että tietojenkäsittelyn koulutus nousee hakutuloksiin

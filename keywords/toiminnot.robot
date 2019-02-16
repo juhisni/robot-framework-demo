@@ -53,3 +53,8 @@ Siirry tietojenkäsittelyn koulutuksen sivulle
     Click Element                       xpath=.//div[@class='hover']/a[contains(., 'Lue lisää')]
     Wait Until Page Contains Element    xpath=.//h1[contains(., 'Tradenomi (AMK), tietojenkäsittely')]
     Wait Until Page Contains            IT-tradenomi - sovelluskehittäjä
+
+Sulje sharepalkki
+    Wait Until Page Contains Element    xpath=.//span[@class='et_social_close']   timeout=10s
+    Click Element                       xpath=.//span[@class='et_social_close']
+    Sleep   2
