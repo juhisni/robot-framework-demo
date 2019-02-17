@@ -7,6 +7,7 @@ Library       SeleniumLibrary
 ${BROWSER}      ${Chrome}
 ${DELAY}        0.2
 ${URL_XAMK}     https://www.xamk.fi/
+${TIMEOUT_GLOBAL}   10s
 
 *** Keywords ***
 Sulje selain
