@@ -1,1 +1,8 @@
-.robot-results/
+robot-results
+selenium-screenshot-*.png
+log.html
+output.xml
+report.xml
+*.log
+.DS_Store
+geckodriver.log
