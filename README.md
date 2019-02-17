@@ -8,3 +8,7 @@ Execute test case by:
 FOR EXAMPLE runallRF.bat Chrome demo  
 This command will run all test cases with a tag called "demo" on Chrome.  
 3) Test results can be accessed from the robot-results directory.
+
+# NOTE #
+Currently the test case fails because the steps were created in Spring 2018.  
+XAMK's website layout and element attributes have changed since.
