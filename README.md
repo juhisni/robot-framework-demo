@@ -11,4 +11,6 @@ This command will run all test cases with a tag called "demo" on Chrome.
 
 # NOTE #
 Currently the test case fails because the steps were created in Spring 2018.  
-XAMK's website layout and element attributes have changed since.
+XAMK's website layout and element attributes have changed since.  
+
+The user-defined keywords are written in Finnish because the domain is Finnish.
