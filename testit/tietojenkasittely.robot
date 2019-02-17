@@ -10,7 +10,7 @@ Resource      ../keywords/toiminnot.robot
 
 *** Test Cases ***
 Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
-    [Tags]    demo    qa
+    [Tags]    demo
     Avaa selain XAMKin etusivulle
     Tarkista että etusivu on auki
     Siirry koulutus välilehdelle

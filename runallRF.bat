@@ -1,11 +1,7 @@
 @echo off
 
-SET ENVIRONMENT=%1
-SET BROWSER=%2
-SET TAG=%3
+SET BROWSER=%1
+SET TAG=%2
 
-IF %ENVIRONMENT%==qa goto :execute_in_qa
-
-:execute_in_qa
-echo "Starts with arguments ENV=%ENVIRONMENT% BROWSER=%BROWSER% TAG=%TAG% in QA environment."
-robot --variable ENVIRONMENT:%ENVIRONMENT% --variable BROWSER:%BROWSER% --include %TAG%ANDQA --argumentfile environments/common-arguments.txt --outputdir robot-results .
+echo "Starts with arguments BROWSER=%BROWSER% TAG=%TAG%"
+robot --variable BROWSER:%BROWSER% --include %TAG% --argumentfile environments/common-arguments.txt --outputdir robot-results .
