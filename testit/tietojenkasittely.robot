@@ -9,7 +9,7 @@ Resource      ../keywords/toiminnot.robot
 *** Keywords ***
 
 *** Test Cases ***
-Jenkins: Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
+Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
     [Tags]    jenkins   local   demo
     Avaa selain XAMKin etusivulle
     Tarkista että etusivu on auki
