@@ -10,7 +10,7 @@ Resource      ../keywords/toiminnot.robot
 
 *** Test Cases ***
 Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
-    [Tags]    jenkins   local   demo
+    [Tags]    jenkins   local   demo    old
     Avaa selain XAMKin etusivulle
     Tarkista että etusivu on auki
     Siirry koulutus välilehdelle
@@ -19,4 +19,12 @@ Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
     Hae tietojenkäsittelyn koulutusta
     Tarkista että tietojenkäsittelyn koulutus nousee hakutuloksiin
     Siirry tietojenkäsittelyn koulutuksen sivulle
+    [Teardown]    Sulje selain
+
+Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma suoraan hakukentästä
+    [Tags]    jenkins   local   demo    working
+    Avaa selain XAMKin etusivulle
+    Tarkista että etusivu on auki
+    Etsi etusivun hakukentästä tietojenkäsittely
+    Tarkista että tietojenkäsittelyn opinnoista kertova sivu on auki
     [Teardown]    Sulje selain

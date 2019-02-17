@@ -58,3 +58,15 @@ Sulje sharepalkki
     Wait Until Page Contains Element    xpath=.//span[@class='et_social_close']   timeout=10s
     Click Element                       xpath=.//span[@class='et_social_close']
     Sleep   2
+
+Etsi etusivun hakukentästä tietojenkäsittely
+    Wait Until Page Contains Element    xpath=.//form[@role='search']//input[@placeholder='Hae xamk.fi -sivustolta']                           timeout=10s
+    Input Text                          xpath=.//form[@role='search']//input[@placeholder='Hae xamk.fi -sivustolta']    Tietojenkäsittely
+    Wait Until Page Contains Element    xpath=.//div[@id='addsearch-results-mid']//a[contains(text(), 'Tradenomi (AMK), tietojenkäsittely')]   timeout=10s
+    Click Element                       xpath=.//div[@id='addsearch-results-mid']//a[contains(text(), 'Tradenomi (AMK), tietojenkäsittely')]
+
+Tarkista että tietojenkäsittelyn opinnoista kertova sivu on auki
+    Wait Until Page Contains Element    xpath=.//h1[contains(text(), 'Tradenomi (AMK), tietojenkäsittely')]                                    timeout=10s
+    Title Should Be                     Tradenomi (AMK), tietojenkäsittely - XAMK
+    Page Should Contain                 Päiväopiskelu
+    Page Should Contain                 Verkko-opiskelu
