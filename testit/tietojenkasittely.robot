@@ -9,12 +9,12 @@ Resource      ../keywords/toiminnot.robot
 *** Keywords ***
 
 *** Test Cases ***
-Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
-    [Tags]    demo
+Jenkins: Etsi XAMKin sivuilta tietojenkäsittelyn koulutusohjelma
+    [Tags]    jenkins   local   demo
     Avaa selain XAMKin etusivulle
     Tarkista että etusivu on auki
     Siirry koulutus välilehdelle
-    Run Keyword If    '${BROWSER}' == 'HeadlessChrome'    Sulje sharepalkki
+    Run Keyword If    '${CONFIGURATION}' == 'jenkins'    Sulje sharepalkki
     Siirry AMK-tutkinnot välilehdelle
     Hae tietojenkäsittelyn koulutusta
     Tarkista että tietojenkäsittelyn koulutus nousee hakutuloksiin
