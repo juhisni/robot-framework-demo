@@ -54,11 +54,6 @@ Siirry tietojenkäsittelyn koulutuksen sivulle
     Wait Until Page Contains Element    xpath=.//h1[contains(., 'Tradenomi (AMK), tietojenkäsittely')]    timeout=${TIMEOUT_GLOBAL}
     Wait Until Page Contains            IT-tradenomi - sovelluskehittäjä                                  timeout=${TIMEOUT_GLOBAL}
 
-Sulje sharepalkki
-    Wait Until Page Contains Element    xpath=.//span[@class='et_social_close']   timeout=${TIMEOUT_GLOBAL}
-    Click Element                       xpath=.//span[@class='et_social_close']
-    Sleep   2
-
 Etsi etusivun hakukentästä tietojenkäsittely
     Wait Until Page Contains Element    xpath=.//form[@role='search']//input[@placeholder='Hae xamk.fi -sivustolta']                           timeout=${TIMEOUT_GLOBAL}
     Input Text                          xpath=.//form[@role='search']//input[@placeholder='Hae xamk.fi -sivustolta']    Tietojenkäsittely
