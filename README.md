@@ -4,9 +4,9 @@ Basic example of Robot Framework test cases
 ## Usage ##
 Execute test case by:
 1) Navigating to project directory (robot-framework-demo) on command prompt.  
-2) Running windows batch-file (.bat) on command prompt by typing: runallRF.bat Configuration(jenkins or local) Browser Tag  
-FOR EXAMPLE runallRF.bat local Chrome demo  
-This command will run all test cases with a tag called "demo" on Chrome on a local configuration instead of a jenkins job.  
+2) Running windows batch-file (.bat) on command prompt by typing: runallRF.bat Browser Tag  
+FOR EXAMPLE runallRF.bat Chrome demo    
+This command will run all test cases with a tag called "demo" on Chrome  
 3) Test results can be accessed from the robot-results directory.
 
 # NOTE #
