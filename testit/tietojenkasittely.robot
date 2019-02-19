@@ -1,6 +1,6 @@
 coding: utf-8
 *** Settings ***
-Documentation  Etsi tietojenkäsittelyn koulutus XAMK:in verkkosivuilta, 1 failaava ja 1 toimiva
+Documentation  Find the "Tietojenkäsittely" field of study from XAMK's website. The first test case is supposed to fail and the other one should succeed.
 Library       SeleniumLibrary
 Resource      ../common-resource.robot
 Resource      ../keywords/toiminnot.robot

@@ -10,7 +10,8 @@ This command will run all test cases with a tag called "demo" on Chrome
 3) Test results can be accessed from the robot-results directory.
 
 # NOTE #
-Currently the test case fails because the steps were created in Spring 2018.  
+Currently the first test case fails because the steps were created in Spring 2018.  
 XAMK's website layout and element attributes have changed since.  
 
+The second test case was created to demonstrate a successful test case  
 The user-defined keywords are written in Finnish because the domain is Finnish.

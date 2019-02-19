@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  XAMK - tietojenkäsittely - avainsanat
+Documentation  XAMK - tietojenkäsittely - Keywords
 Resource      ../common-resource.robot
 
 *** Keywords ***
